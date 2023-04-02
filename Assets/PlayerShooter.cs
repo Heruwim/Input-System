@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerShooter : MonoBehaviour
 {
-    public void OnShoot()
+    public void OnShoot(InputAction.CallbackContext context)
     {
         Debug.Log("Shoot");
     }
